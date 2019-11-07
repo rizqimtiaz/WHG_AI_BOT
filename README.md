@@ -23,6 +23,8 @@ After seven generations, if the bot's fitness value of the best chromosome is no
 
 To train the AI bot go to the main file and set allow = False this wil show training process and once trained, model is saved in best.txt and it can be manually copied to specific level.txt file to save the model.
 
+![ezgif com-video-to-gif](https://github.com/saad090/WHG-AI-Bot/assets/108808181/e4551e07-0f79-489a-80dd-ed0c98ecdb71)
+
 To see the already trained models playing the game move set the allow variable to True in main file. To select the level look for the specific level key in levels dictinory in levels.py.
 
 ![ezgif com-video-to-gif (2)](https://github.com/saad090/WHG-AI-Bot/assets/108808181/d19705b0-0740-4300-97c4-891708d8ef32)
@@ -37,12 +39,6 @@ To train the AI bot, we first created a Python program to simulate the game envi
 ![newplot (3)](https://user-images.githubusercontent.com/108808181/236904057-333e15e8-6d7e-4500-abad-7fbd5cfc9b11.png)
 
 
-<!-- metadata: juwlaet00o -->
-<!-- metadata: odyv8wsnm6 -->
-<!-- metadata: i2mwrcf800 -->
-<!-- metadata: 916cjzzw3b -->
-<!-- metadata: dq0h1cvbyo -->
-<!-- metadata: voo1pu4hy7 -->
 ## Conclusion
 
 In conclusion, we successfully trained an AI bot for the World's Hardest Game using Genetic Algorithm and Python programming language. The bot's performance improved with each generation, and the best bot's brain instructions were saved as models. With further improvements, this AI bot could potentially solve the World's Hardest Game efficiently by reducing the number of instructions used to reach the final goal. The project demonstrates the use of GA in AI bot training and showcases its potential for solving complex problems.
