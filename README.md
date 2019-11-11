@@ -1,6 +1,3 @@
-# World's Hardest Game AI Bot Trained Using Genetic Algorithm
-
-![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
 
 ## Introduction
 
@@ -18,6 +15,8 @@ After seven generations, if the bot's fitness value of the best chromosome is no
 
 ## Training the AI Bot
 
+<!-- metadata: t0oqyzg2l3 -->
+<!-- metadata: o17vhh3cjb -->
 ![Untitled video - Made with Clipchamp (3)](https://user-images.githubusercontent.com/108808181/236899632-deca25f6-a766-45d5-88a4-e3e86ea6d94f.gif)
 
 
