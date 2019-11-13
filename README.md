@@ -8,6 +8,7 @@ The World's Hardest Game is a notoriously difficult game that challenges players
 
 The aim of the project was to create an AI bot that could successfully navigate through four levels of the game using GA. Each chromosome in the training represents an AI bot with a brain that has a capacity of 500 instructions, meaning it can take 500 steps before it dies. The bot dies when it touches a moving object or runs out of instructions, and if it collides with walls, it dies too. 
 
+## The GA Process
 
 The GA is an iterative process that involves generating a population of bots with randomly assigned brains and chromosomes. The fitness function is used to evaluate each bot's ability to survive and navigate through the game. The fitness function calculates the distance between the bot and the goal state, and the bot with the lowest distance is deemed the most fit. 
 
@@ -32,12 +33,6 @@ To see the already trained models playing the game move set the allow variable t
 To train the AI bot, we first created a Python program to simulate the game environment using Processing IDE. We then applied the GA process to train the bot to navigate through the game. Once the bot successfully reaches the goal state in each level, the best bot's brain instructions are saved in a text file representing the model and saved as level_n.txt where n is in range(0, 4) as many levels there are. In training the bot the complexity level of the the current level is not much of a issue as what impacts the efficiency of the algorithm the most is how much diversity is maintained in every genratetion as more diversity means more variety of instructions avaialble for the chromosomes to get as a result of crossover. In case all the bots are dying at same position then we will never converge to goal state using crossover and we need to perform mutation which will tkae a lot of time to converge.
 
 ## Analyzing the GA Performance
-<!-- metadata: gfa0ntb88t -->
-<!-- metadata: akoz86mh7c -->
-<!-- metadata: 4d9tbqasbw -->
-<!-- metadata: kw4mhlocle -->
-<!-- metadata: jz48cdgitf -->
-<!-- metadata: x10lkc59rt -->
 
 ![newplot (2)](https://user-images.githubusercontent.com/108808181/236903903-d801a085-b1b0-4f62-b934-1d64c7f9765f.png)
 
