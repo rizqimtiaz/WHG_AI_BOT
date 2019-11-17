@@ -1,20 +1,12 @@
 # World's Hardest Game AI Bot Trained Using Genetic Algorithm
 
 ![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
-<!-- metadata: tvtgy0wul3 -->
-<!-- metadata: mc2cfov120 -->
-<!-- metadata: 812fpxn6xm -->
-<!-- metadata: e3n6v78wua -->
-<!-- metadata: dum3bantj9 -->
-<!-- metadata: k35v111kax -->
-<!-- metadata: f66i6bog4f -->
-<!-- metadata: 09u10ljm8g -->
-<!-- metadata: je3hquc31a -->
 
 ## Introduction
 
 The World's Hardest Game is a notoriously difficult game that challenges players to navigate a small red square through a series of mazes filled with moving objects and deadly obstacles. To conquer this game, we trained an AI bot using Genetic Algorithm (GA) and Python programming language. 
 
+The aim of the project was to create an AI bot that could successfully navigate through four levels of the game using GA. Each chromosome in the training represents an AI bot with a brain that has a capacity of 500 instructions, meaning it can take 500 steps before it dies. The bot dies when it touches a moving object or runs out of instructions, and if it collides with walls, it dies too. 
 
 ## The GA Process
 
