@@ -6,20 +6,16 @@
 
 The World's Hardest Game is a notoriously difficult game that challenges players to navigate a small red square through a series of mazes filled with moving objects and deadly obstacles. To conquer this game, we trained an AI bot using Genetic Algorithm (GA) and Python programming language. 
 
+The aim of the project was to create an AI bot that could successfully navigate through four levels of the game using GA. Each chromosome in the training represents an AI bot with a brain that has a capacity of 500 instructions, meaning it can take 500 steps before it dies. The bot dies when it touches a moving object or runs out of instructions, and if it collides with walls, it dies too. 
+
+## The GA Process
+
 The GA is an iterative process that involves generating a population of bots with randomly assigned brains and chromosomes. The fitness function is used to evaluate each bot's ability to survive and navigate through the game. The fitness function calculates the distance between the bot and the goal state, and the bot with the lowest distance is deemed the most fit. 
 
 The next step is to select the most fit bot as the parent for the next generation. The crossover process is then applied to generate new bots. In crossover, the best bot's brain instructions are kept intact, and a random parent's instructions are used to replace the least fit bot's instructions. The crossover point is determined by the instruction that caused the bot to die. The parent is selected random to get crossover with high fitness chromosomes because we need to maintain diversity in our population so we cannot just discard the low fitness chromosomes
 
 After seven generations, if the bot's fitness value of the best chromosome is not changing or no good performance is seen, we apply mutation instead of crossover. In mutation, all the instructions after the crossover point are replaced with randomly generated instructions. 
 
-<!-- metadata: pj4r0m28dv -->
-<!-- metadata: 23ag8kdxhv -->
-<!-- metadata: qoisall9qz -->
-<!-- metadata: 0wjmb8u0sc -->
-<!-- metadata: 642iiu8zyi -->
-<!-- metadata: emsf9ke6wj -->
-<!-- metadata: dg5lgqpz1z -->
-<!-- metadata: ep0uftw0t2 -->
 ## Training the AI Bot
 
 ![Untitled video - Made with Clipchamp (3)](https://user-images.githubusercontent.com/108808181/236899632-deca25f6-a766-45d5-88a4-e3e86ea6d94f.gif)
