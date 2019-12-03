@@ -12,6 +12,7 @@ The aim of the project was to create an AI bot that could successfully navigate 
 
 The GA is an iterative process that involves generating a population of bots with randomly assigned brains and chromosomes. The fitness function is used to evaluate each bot's ability to survive and navigate through the game. The fitness function calculates the distance between the bot and the goal state, and the bot with the lowest distance is deemed the most fit. 
 
+The next step is to select the most fit bot as the parent for the next generation. The crossover process is then applied to generate new bots. In crossover, the best bot's brain instructions are kept intact, and a random parent's instructions are used to replace the least fit bot's instructions. The crossover point is determined by the instruction that caused the bot to die. The parent is selected random to get crossover with high fitness chromosomes because we need to maintain diversity in our population so we cannot just discard the low fitness chromosomes
 
 After seven generations, if the bot's fitness value of the best chromosome is not changing or no good performance is seen, we apply mutation instead of crossover. In mutation, all the instructions after the crossover point are replaced with randomly generated instructions. 
 
@@ -22,9 +23,6 @@ After seven generations, if the bot's fitness value of the best chromosome is no
 
 To train the AI bot go to the main file and set allow = False this wil show training process and once trained, model is saved in best.txt and it can be manually copied to specific level.txt file to save the model.
 
-<!-- metadata: fwqn92b6f0 -->
-<!-- metadata: 56agnq6yep -->
-<!-- metadata: 3ex6af6iqy -->
 ![ezgif com-video-to-gif](https://github.com/saad090/WHG-AI-Bot/assets/108808181/e4551e07-0f79-489a-80dd-ed0c98ecdb71)
 
 To see the already trained models playing the game move set the allow variable to True in main file. To select the level look for the specific level key in levels dictinory in levels.py.
