@@ -22,9 +22,8 @@ After seven generations, if the bot's fitness value of the best chromosome is no
 
 
 To train the AI bot go to the main file and set allow = False this wil show training process and once trained, model is saved in best.txt and it can be manually copied to specific level.txt file to save the model.
-<!-- metadata: 2slqrqie6j -->
-<!-- metadata: o0ph4qedad -->
-<!-- metadata: 4ooc4jnv5w -->
+
+![ezgif com-video-to-gif](https://github.com/saad090/WHG-AI-Bot/assets/108808181/e4551e07-0f79-489a-80dd-ed0c98ecdb71)
 
 To see the already trained models playing the game move set the allow variable to True in main file. To select the level look for the specific level key in levels dictinory in levels.py.
 
