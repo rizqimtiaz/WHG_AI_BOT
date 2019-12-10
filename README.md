@@ -14,7 +14,6 @@ The GA is an iterative process that involves generating a population of bots wit
 
 The next step is to select the most fit bot as the parent for the next generation. The crossover process is then applied to generate new bots. In crossover, the best bot's brain instructions are kept intact, and a random parent's instructions are used to replace the least fit bot's instructions. The crossover point is determined by the instruction that caused the bot to die. The parent is selected random to get crossover with high fitness chromosomes because we need to maintain diversity in our population so we cannot just discard the low fitness chromosomes
 
-<!-- metadata: uoakay6ew1 -->
 After seven generations, if the bot's fitness value of the best chromosome is not changing or no good performance is seen, we apply mutation instead of crossover. In mutation, all the instructions after the crossover point are replaced with randomly generated instructions. 
 
 ## Training the AI Bot
@@ -35,6 +34,7 @@ To train the AI bot, we first created a Python program to simulate the game envi
 
 ## Analyzing the GA Performance
 
+![newplot (2)](https://user-images.githubusercontent.com/108808181/236903903-d801a085-b1b0-4f62-b934-1d64c7f9765f.png)
 
 ![newplot (3)](https://user-images.githubusercontent.com/108808181/236904057-333e15e8-6d7e-4500-abad-7fbd5cfc9b11.png)
 
