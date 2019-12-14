@@ -1,7 +1,4 @@
 # World's Hardest Game AI Bot Trained Using Genetic Algorithm
-<!-- metadata: laxs4twi5l -->
-<!-- metadata: fs7vx3jajd -->
-<!-- metadata: xjn6kdbtiu -->
 
 ![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
 
@@ -20,6 +17,9 @@ The next step is to select the most fit bot as the parent for the next generatio
 After seven generations, if the bot's fitness value of the best chromosome is not changing or no good performance is seen, we apply mutation instead of crossover. In mutation, all the instructions after the crossover point are replaced with randomly generated instructions. 
 
 ## Training the AI Bot
+
+![Untitled video - Made with Clipchamp (3)](https://user-images.githubusercontent.com/108808181/236899632-deca25f6-a766-45d5-88a4-e3e86ea6d94f.gif)
+
 
 To train the AI bot go to the main file and set allow = False this wil show training process and once trained, model is saved in best.txt and it can be manually copied to specific level.txt file to save the model.
 
