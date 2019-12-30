@@ -26,6 +26,7 @@ To train the AI bot go to the main file and set allow = False this wil show trai
 ![ezgif com-video-to-gif](https://github.com/saad090/WHG-AI-Bot/assets/108808181/e4551e07-0f79-489a-80dd-ed0c98ecdb71)
 
 To see the already trained models playing the game move set the allow variable to True in main file. To select the level look for the specific level key in levels dictinory in levels.py.
+
 ![ezgif com-video-to-gif (2)](https://github.com/saad090/WHG-AI-Bot/assets/108808181/d19705b0-0740-4300-97c4-891708d8ef32)
 
 
@@ -34,10 +35,6 @@ To train the AI bot, we first created a Python program to simulate the game envi
 ## Analyzing the GA Performance
 
 ![newplot (2)](https://user-images.githubusercontent.com/108808181/236903903-d801a085-b1b0-4f62-b934-1d64c7f9765f.png)
-<!-- metadata: 1ueo8rph5c -->
-<!-- metadata: g13vh96h8r -->
-<!-- metadata: ed5hg2isi6 -->
-<!-- metadata: xv8l8iijp0 -->
 
 ![newplot (3)](https://user-images.githubusercontent.com/108808181/236904057-333e15e8-6d7e-4500-abad-7fbd5cfc9b11.png)
 
