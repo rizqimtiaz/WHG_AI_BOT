@@ -30,16 +30,22 @@ To see the already trained models playing the game move set the allow variable t
 ![ezgif com-video-to-gif (2)](https://github.com/saad090/WHG-AI-Bot/assets/108808181/d19705b0-0740-4300-97c4-891708d8ef32)
 
 
-To train the AI bot, we first created a Python program to simulate the game environment using Processing IDE. We then applied the GA process to train the bot to navigate through the game. Once the bot successfully reaches the goal state in each level, the best bot's brain instructions are saved in a text file representing the model and saved as level_n.txt where n is in range(0, 4) as many levels there are. In training the bot the complexity level of the the current level is not much of a issue as what impacts the efficiency of the algorithm the most is how much diversity is maintained in every genratetion as more diversity means more variety of instructions avaialble for the chromosomes to get as a result of crossover. In case all the bots are dying at same position then we will never converge to goal state using crossover and we need to perform mutation which will tkae a lot of time to converge.
-
-## Analyzing the GA Performance
-
 ![newplot (2)](https://user-images.githubusercontent.com/108808181/236903903-d801a085-b1b0-4f62-b934-1d64c7f9765f.png)
 
 ![newplot (3)](https://user-images.githubusercontent.com/108808181/236904057-333e15e8-6d7e-4500-abad-7fbd5cfc9b11.png)
 
 
 ## Conclusion
+<!-- metadata: 8e8zu338nj -->
+<!-- metadata: 7rsrk3vxjl -->
+<!-- metadata: u0n5kzaui1 -->
+<!-- metadata: q5v43fsc74 -->
+<!-- metadata: wrgbyibpyr -->
+<!-- metadata: gxovc4b188 -->
+<!-- metadata: x9qgovn67b -->
+<!-- metadata: fwzkrdj7gr -->
+<!-- metadata: 0ukgy0sc3n -->
+<!-- metadata: 4tj4knk4qs -->
 
 In conclusion, we successfully trained an AI bot for the World's Hardest Game using Genetic Algorithm and Python programming language. The bot's performance improved with each generation, and the best bot's brain instructions were saved as models. With further improvements, this AI bot could potentially solve the World's Hardest Game efficiently by reducing the number of instructions used to reach the final goal. The project demonstrates the use of GA in AI bot training and showcases its potential for solving complex problems.
 
