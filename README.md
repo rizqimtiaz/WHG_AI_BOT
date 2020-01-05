@@ -1,4 +1,3 @@
-# World's Hardest Game AI Bot Trained Using Genetic Algorithm
 
 ![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
 
@@ -25,6 +24,14 @@ To train the AI bot go to the main file and set allow = False this wil show trai
 
 ![ezgif com-video-to-gif](https://github.com/saad090/WHG-AI-Bot/assets/108808181/e4551e07-0f79-489a-80dd-ed0c98ecdb71)
 
+<!-- metadata: i6g7dv6lh3 -->
+<!-- metadata: gt80pid3s3 -->
+<!-- metadata: m7n29cxf41 -->
+<!-- metadata: fcjfy79tw4 -->
+<!-- metadata: jrltjhdemf -->
+<!-- metadata: vf8w44xzsl -->
+<!-- metadata: jrccumzds5 -->
+<!-- metadata: nnafd7s7sd -->
 To see the already trained models playing the game move set the allow variable to True in main file. To select the level look for the specific level key in levels dictinory in levels.py.
 
 ![ezgif com-video-to-gif (2)](https://github.com/saad090/WHG-AI-Bot/assets/108808181/d19705b0-0740-4300-97c4-891708d8ef32)
