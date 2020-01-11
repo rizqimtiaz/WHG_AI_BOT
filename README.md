@@ -1,4 +1,5 @@
 # World's Hardest Game AI Bot Trained Using Genetic Algorithm
+
 ![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
 
 ## Introduction
@@ -40,16 +41,6 @@ To train the AI bot, we first created a Python program to simulate the game envi
 
 ## Conclusion
 
-<!-- metadata: jq4l7vm0p2 -->
-<!-- metadata: gqhizysfse -->
-<!-- metadata: 4o4qvc7v7e -->
-<!-- metadata: 8o6qctu3t2 -->
-<!-- metadata: irp4llm107 -->
-<!-- metadata: qxd0y65jbs -->
-<!-- metadata: 3lc4qi0ebo -->
-<!-- metadata: w149h4htto -->
-<!-- metadata: yd0y4tvgl9 -->
-<!-- metadata: 00ecu3jlp2 -->
 In conclusion, we successfully trained an AI bot for the World's Hardest Game using Genetic Algorithm and Python programming language. The bot's performance improved with each generation, and the best bot's brain instructions were saved as models. With further improvements, this AI bot could potentially solve the World's Hardest Game efficiently by reducing the number of instructions used to reach the final goal. The project demonstrates the use of GA in AI bot training and showcases its potential for solving complex problems.
 
 
