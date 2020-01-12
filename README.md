@@ -5,7 +5,6 @@
 ## Introduction
 
 The World's Hardest Game is a notoriously difficult game that challenges players to navigate a small red square through a series of mazes filled with moving objects and deadly obstacles. To conquer this game, we trained an AI bot using Genetic Algorithm (GA) and Python programming language. 
-<!-- metadata: rj3x6x0320 -->
 
 The aim of the project was to create an AI bot that could successfully navigate through four levels of the game using GA. Each chromosome in the training represents an AI bot with a brain that has a capacity of 500 instructions, meaning it can take 500 steps before it dies. The bot dies when it touches a moving object or runs out of instructions, and if it collides with walls, it dies too. 
 
@@ -18,6 +17,7 @@ The next step is to select the most fit bot as the parent for the next generatio
 After seven generations, if the bot's fitness value of the best chromosome is not changing or no good performance is seen, we apply mutation instead of crossover. In mutation, all the instructions after the crossover point are replaced with randomly generated instructions. 
 
 ## Training the AI Bot
+
 ![Untitled video - Made with Clipchamp (3)](https://user-images.githubusercontent.com/108808181/236899632-deca25f6-a766-45d5-88a4-e3e86ea6d94f.gif)
 
 
