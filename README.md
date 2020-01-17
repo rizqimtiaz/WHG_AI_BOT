@@ -1,4 +1,7 @@
 # World's Hardest Game AI Bot Trained Using Genetic Algorithm
+
+![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
+
 ## Introduction
 
 The World's Hardest Game is a notoriously difficult game that challenges players to navigate a small red square through a series of mazes filled with moving objects and deadly obstacles. To conquer this game, we trained an AI bot using Genetic Algorithm (GA) and Python programming language. 
@@ -8,16 +11,6 @@ The aim of the project was to create an AI bot that could successfully navigate 
 ## The GA Process
 
 The GA is an iterative process that involves generating a population of bots with randomly assigned brains and chromosomes. The fitness function is used to evaluate each bot's ability to survive and navigate through the game. The fitness function calculates the distance between the bot and the goal state, and the bot with the lowest distance is deemed the most fit. 
-<!-- metadata: 4zase6tcga -->
-<!-- metadata: yol5dx5cem -->
-<!-- metadata: volbwq8t3x -->
-<!-- metadata: 8sfz4erpbz -->
-<!-- metadata: q7rzvcyic6 -->
-<!-- metadata: c3uhtd5iff -->
-<!-- metadata: 2tjbxjt28f -->
-<!-- metadata: fwl35ptpnj -->
-<!-- metadata: 61aihzisxx -->
-<!-- metadata: xi3xp1as4l -->
 
 The next step is to select the most fit bot as the parent for the next generation. The crossover process is then applied to generate new bots. In crossover, the best bot's brain instructions are kept intact, and a random parent's instructions are used to replace the least fit bot's instructions. The crossover point is determined by the instruction that caused the bot to die. The parent is selected random to get crossover with high fitness chromosomes because we need to maintain diversity in our population so we cannot just discard the low fitness chromosomes
 
