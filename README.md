@@ -12,15 +12,9 @@ The aim of the project was to create an AI bot that could successfully navigate 
 
 The GA is an iterative process that involves generating a population of bots with randomly assigned brains and chromosomes. The fitness function is used to evaluate each bot's ability to survive and navigate through the game. The fitness function calculates the distance between the bot and the goal state, and the bot with the lowest distance is deemed the most fit. 
 
+The next step is to select the most fit bot as the parent for the next generation. The crossover process is then applied to generate new bots. In crossover, the best bot's brain instructions are kept intact, and a random parent's instructions are used to replace the least fit bot's instructions. The crossover point is determined by the instruction that caused the bot to die. The parent is selected random to get crossover with high fitness chromosomes because we need to maintain diversity in our population so we cannot just discard the low fitness chromosomes
 
 After seven generations, if the bot's fitness value of the best chromosome is not changing or no good performance is seen, we apply mutation instead of crossover. In mutation, all the instructions after the crossover point are replaced with randomly generated instructions. 
-<!-- metadata: 2g8uzm74b7 -->
-<!-- metadata: 1xoqm559id -->
-<!-- metadata: wto0g6ec3i -->
-<!-- metadata: s07wx0mslw -->
-<!-- metadata: ri1rmbp2h5 -->
-<!-- metadata: tk4zulwcgj -->
-<!-- metadata: b0adcb6uls -->
 
 ## Training the AI Bot
 
