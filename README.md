@@ -19,6 +19,10 @@ After seven generations, if the bot's fitness value of the best chromosome is no
 ## Training the AI Bot
 
 ![Untitled video - Made with Clipchamp (3)](https://user-images.githubusercontent.com/108808181/236899632-deca25f6-a766-45d5-88a4-e3e86ea6d94f.gif)
+
+
+To train the AI bot go to the main file and set allow = False this wil show training process and once trained, model is saved in best.txt and it can be manually copied to specific level.txt file to save the model.
+
 ![ezgif com-video-to-gif](https://github.com/saad090/WHG-AI-Bot/assets/108808181/e4551e07-0f79-489a-80dd-ed0c98ecdb71)
 
 To see the already trained models playing the game move set the allow variable to True in main file. To select the level look for the specific level key in levels dictinory in levels.py.
@@ -29,11 +33,6 @@ To see the already trained models playing the game move set the allow variable t
 To train the AI bot, we first created a Python program to simulate the game environment using Processing IDE. We then applied the GA process to train the bot to navigate through the game. Once the bot successfully reaches the goal state in each level, the best bot's brain instructions are saved in a text file representing the model and saved as level_n.txt where n is in range(0, 4) as many levels there are. In training the bot the complexity level of the the current level is not much of a issue as what impacts the efficiency of the algorithm the most is how much diversity is maintained in every genratetion as more diversity means more variety of instructions avaialble for the chromosomes to get as a result of crossover. In case all the bots are dying at same position then we will never converge to goal state using crossover and we need to perform mutation which will tkae a lot of time to converge.
 
 ## Analyzing the GA Performance
-<!-- metadata: dn324e179t -->
-<!-- metadata: cxe0wp9y67 -->
-<!-- metadata: e40677g3rc -->
-<!-- metadata: cy528u2fl5 -->
-<!-- metadata: wtixjhp4zt -->
 
 ![newplot (2)](https://user-images.githubusercontent.com/108808181/236903903-d801a085-b1b0-4f62-b934-1d64c7f9765f.png)
 
