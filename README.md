@@ -1,5 +1,6 @@
 # World's Hardest Game AI Bot Trained Using Genetic Algorithm
 
+![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
 
 ## Introduction
 
@@ -19,12 +20,6 @@ After seven generations, if the bot's fitness value of the best chromosome is no
 
 ![Untitled video - Made with Clipchamp (3)](https://user-images.githubusercontent.com/108808181/236899632-deca25f6-a766-45d5-88a4-e3e86ea6d94f.gif)
 
-<!-- metadata: 2a78cgwevg -->
-<!-- metadata: u87rrdawco -->
-<!-- metadata: d55s5ukc1x -->
-<!-- metadata: e0vvd1vy0a -->
-<!-- metadata: 6dj580albx -->
-<!-- metadata: 4f373gxddg -->
 
 To train the AI bot go to the main file and set allow = False this wil show training process and once trained, model is saved in best.txt and it can be manually copied to specific level.txt file to save the model.
 
