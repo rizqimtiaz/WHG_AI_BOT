@@ -16,6 +16,8 @@ The next step is to select the most fit bot as the parent for the next generatio
 
 After seven generations, if the bot's fitness value of the best chromosome is not changing or no good performance is seen, we apply mutation instead of crossover. In mutation, all the instructions after the crossover point are replaced with randomly generated instructions. 
 
+## Training the AI Bot
+
 ![Untitled video - Made with Clipchamp (3)](https://user-images.githubusercontent.com/108808181/236899632-deca25f6-a766-45d5-88a4-e3e86ea6d94f.gif)
 
 
@@ -33,13 +35,6 @@ To train the AI bot, we first created a Python program to simulate the game envi
 ## Analyzing the GA Performance
 
 ![newplot (2)](https://user-images.githubusercontent.com/108808181/236903903-d801a085-b1b0-4f62-b934-1d64c7f9765f.png)
-<!-- metadata: 1gceiewtse -->
-<!-- metadata: uomtr5jr48 -->
-<!-- metadata: uzasguuxb8 -->
-<!-- metadata: kdrwwuc94d -->
-<!-- metadata: 6xcm3wxbv7 -->
-<!-- metadata: a38e1t5csb -->
-<!-- metadata: 8k4hm9x36h -->
 
 ![newplot (3)](https://user-images.githubusercontent.com/108808181/236904057-333e15e8-6d7e-4500-abad-7fbd5cfc9b11.png)
 
