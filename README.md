@@ -34,13 +34,9 @@ To train the AI bot, we first created a Python program to simulate the game envi
 
 ## Analyzing the GA Performance
 
-<!-- metadata: t0k2ez7xi3 -->
-<!-- metadata: fnxp5vbjlf -->
-<!-- metadata: rg6b1ccsjc -->
-<!-- metadata: cdlgvwupxu -->
-<!-- metadata: he16h9gwwy -->
-<!-- metadata: gptf47wwm0 -->
-<!-- metadata: bvuz17pgj2 -->
+![newplot (2)](https://user-images.githubusercontent.com/108808181/236903903-d801a085-b1b0-4f62-b934-1d64c7f9765f.png)
+
+![newplot (3)](https://user-images.githubusercontent.com/108808181/236904057-333e15e8-6d7e-4500-abad-7fbd5cfc9b11.png)
 
 
 ## Conclusion
