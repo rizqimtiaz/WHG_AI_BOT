@@ -1,4 +1,10 @@
 # World's Hardest Game AI Bot Trained Using Genetic Algorithm
+<!-- metadata: f3suqsvelf -->
+<!-- metadata: 7gp4g6e8dj -->
+<!-- metadata: q9su1msmif -->
+<!-- metadata: r0yapm8hda -->
+<!-- metadata: 950bq6oflr -->
+<!-- metadata: yrce3qtvc2 -->
 
 ![Untitled video - Made with Clipchamp (4)](https://user-images.githubusercontent.com/108808181/236902512-a25edf32-0f0c-4d59-8114-b7da1793086f.gif)
 
@@ -22,8 +28,6 @@ After seven generations, if the bot's fitness value of the best chromosome is no
 
 
 To train the AI bot go to the main file and set allow = False this wil show training process and once trained, model is saved in best.txt and it can be manually copied to specific level.txt file to save the model.
-
-![ezgif com-video-to-gif](https://github.com/saad090/WHG-AI-Bot/assets/108808181/e4551e07-0f79-489a-80dd-ed0c98ecdb71)
 
 To see the already trained models playing the game move set the allow variable to True in main file. To select the level look for the specific level key in levels dictinory in levels.py.
 
